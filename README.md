@@ -34,7 +34,7 @@ The datapack now supports multi-world chunk generation. You can specify differen
 /function chunky_offline:config/set {"radius":10000,"x":0,"z":0,"world":"custom:dimension_name"}
 ```
 
-**Note:** The world parameter is optional and defaults to `minecraft:overworld` for backward compatibility with existing setups.
+**Note:** When using the `/function chunky_offline:config/set` command, all parameters (radius, x, z, and world) must be provided. If you want to keep the current world setting, specify it explicitly or use the default value `minecraft:overworld`. The datapack automatically initializes with `minecraft:overworld` on first load, ensuring backward compatibility with existing setups that don't specify a world.
 
 Disable/enable global messages:
 
