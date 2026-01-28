@@ -6,6 +6,8 @@ function chunky_offline:utils/macro/command {"command":"chunky pause"}
 function chunky_offline:utils/macro/command {"command":"chunky cancel"}
 function chunky_offline:utils/macro/command {"command":"chunky confirm"}
 
+$function chunky_offline:utils/macro/command {"command":"chunky world $(world)"}
+
 $function chunky_offline:utils/macro/command {"command":"chunky center $(x) $(z)"}
 
 $function chunky_offline:utils/macro/command {"command":"chunky radius $(radius)"}
