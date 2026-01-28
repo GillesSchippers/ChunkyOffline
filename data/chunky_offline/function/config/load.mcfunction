@@ -1,3 +1,6 @@
+# Initialize default configuration values
+# This function runs when the datapack loads for the first time
+# Default world: minecraft:overworld (supports multi-world: minecraft:the_nether, minecraft:the_end, etc.)
 data modify storage chunky_offline:config load set value 1b
 data modify storage chunky_offline:config radius set value 10000
 data modify storage chunky_offline:config x set value 0
